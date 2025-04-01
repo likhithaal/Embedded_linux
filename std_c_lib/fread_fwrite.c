@@ -25,7 +25,7 @@ int main(){
         return -1;
     }
     ret = fread(buf,1,10,f); //10 bytes = 1 * 10
-    if(ret > 10){
+    if(ret < 10){
         perror("fread err or end of file");
         fclose(f);
         return -1;
