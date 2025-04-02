@@ -1,1 +1,1 @@
-hiii hello 100
+hiii hello fprintf
